@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  {{>header}}
+  <div class="content-wrapper weather-page-wrapper">
+    <p>Use this website to getcha' weather, my dude ☔</p>
+    <form action="" class="weather-form">
+      <input placeholder="Los Angeles, California" type="text">
+      <button>Gimme my weather</button>
+    </form>
+
+    <div id="error-message-container"class="error-message-wrapper">
+      <span id="error-message-emoji"class="message-icon message-icon--error">
+          🤦‍♀️
+        </span> 
+      <p id="error-message" class="error-message">
+        You must add an address
+      </p>
+    </div>
+
+    <div id="success-message-container"class="result-message-wrapper">
+      <p class="result-message">
+        <span id="success-message-emoji" class="message-icon message-icon--result">
+          🌤
+        </span> 
+      </p>
+      <div>
+        <p id="success-message-location" class="success-message__location-name">Boston, Massechusetts</p>
+        <p id="success-message-forecast" class="success-message__message">There's a zero percent chance of rain, this and that. Bla bla bla. Some message here</p>
+      </div>
+    </div>
+    
+  </div>
+  {{>footer}}
+  <script src="/js/app.js"></script>
+</body>

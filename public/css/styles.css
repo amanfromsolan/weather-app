@@ -1,0 +1,191 @@
+h1 {
+  color: #333;
+  font-size: 52px;
+  font-family: 'Space Grotesk', 'Avenir', sans-serif;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased; 
+  font-family: 'Space Grotesk', 'Avenir', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.not-found-page {
+  max-width: 800px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.not-found-page h1 {
+  font-size: 102px;
+}
+
+
+a {
+  padding: 8px 24px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 12px;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  background-color: #eee;
+  transform: scale(.98);
+}
+
+.top-nav__container {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  
+}
+
+.content-wrapper {
+  min-height: 40vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.footer-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  padding-top: 40px;
+  border-top: 1px solid #ccc;
+  margin-top: 100px;
+}
+
+.weather-form input {
+  font-size: 20px;
+  font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  padding: 4px 8px;
+  border: none;
+  /* border-bottom: 1px solid #000; */
+  flex-grow: 1;
+  outline: none;
+}
+
+.weather-form button {
+  font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  padding: 16px 24px;
+  border-radius: 4px;
+  border: transparent;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+}
+
+.weather-form button:hover {
+  background-color: #000;
+  transform: scale(.98);
+}
+.weather-form {
+  border: 1px solid #ccc;
+  padding: 4px 16px;
+  padding-right: 4px;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 12px;
+}
+
+.weather-page-wrapper {
+  padding-bottom: 40px;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Error and Success message styles */
+
+.error-message-wrapper {
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin: 20px 0 0 0;
+  font-weight: 500;
+  letter-spacing: .5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 8px 0px #ffc6c6;
+  border: 2px solid #ffc6c6;
+  
+}
+
+.error-message {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.message-icon {
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+.result-message {
+  margin: 0;
+}
+
+.result-message-wrapper {
+  display: flex;
+  padding: 32px 40px 40px 32px;
+  border-radius: 12px;
+  margin: 20px 0 0 0;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 0px rgba(0,0,0,.1);
+  border: 2px solid #ddd;
+  align-items: center;
+}
+
+.message-icon--result {
+  font-size: 62px;
+  margin-right: 32px;
+}
+
+.success-message__location-name {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  color: #777;
+}
+
+.success-message__message {
+  font-size: 24px;
+  margin: 0;
+}
